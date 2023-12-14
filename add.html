@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>添加美食信息</title>
+<style type="text/css">
+d1 {
+	height: 600px;
+ width:40%;
+
+ position:fixed;
+ left:0.0;
+ right:0;
+ bottom:0;
+ top:0;
+ margin:auto;
+}
+.d2 {
+	background-size:1600px 800px;
+}
+</style>
+</head>
+
+<body  class="d2"  style="background:#69F">
+<d1>
+<h2 style="font-size:50px">添加美食信息</h2>
+<form action="add.php" method="post">
+<font  style="font-size:30px">美食ID:
+<input name="id" type="bigint" size="20"/> <br/>
+<font style="font-size:30px">美食名字：
+<input name="name" type="varchar" size="20"/> <br/>
+<font style="font-size:30px">描述：
+<input name="description" type="varchar" size="20"/> <br/>
+<font style="font-size:30px">美食标签：
+<input name="tips" type="varchar" size="20"/> <br/>
+<font style="font-size:30px">上传人：
+<input name="userName" type="varchar" size="20"/> <br/>
+<font style="font-size:30px">用户等级：
+<input name="level" type="int" size="20"/> <br/>
+<font style="font-size:30px">用户id：
+<input name="uploadUserId" type="bigint" size="20"/> <br/>
+
+<input name="submit" type="submit" value="添加美食" style="height:50px; width:150px;  background:#66F;"/> 
+</form>
+</d1>
+</body>
+</html>
